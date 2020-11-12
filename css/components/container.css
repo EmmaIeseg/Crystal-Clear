@@ -1,0 +1,30 @@
+.container {
+	width: 900px;
+	margin: 20px 60px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h2 {
+  color : #0A57B8;
+  font-family: 'Montserrat Alternates';
+  font-weight: 500;
+}
+
